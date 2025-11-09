@@ -1,0 +1,20 @@
+# Core scientific and data libraries
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+
+# Deep learning framework
+torch>=2.1.0
+torchvision>=0.16.0
+torchaudio>=2.1.0
+
+# Utilities
+tqdm>=4.65.0        # progress bars during training
+scikit-learn>=1.3.0 # optional: for evaluation metrics, if you add F1/accuracy reports
+
+# Development and notebook tools (optional but common)
+jupyter>=1.0.0
+notebook>=7.0.0
+
+# System / compatibility
+python-dateutil>=2.8.2
