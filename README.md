@@ -44,7 +44,33 @@ This project uses **Python 3.9+** and works on **macOS, Linux, and Windows**.
 ## **2.1 Preparations**
 
 (1) Clone this repository:  
-```bash
+```shell
 git clone https://github.com/cathieG/Sentiment-LSTM.git
+```
+(2) Navigate into the repository: (change according to your directory structure)
+```shell
+cd CodeT5
+```
+(3) Set up a virtual environment and activate it:
 
-(2) C
+For macOS/Linux:
+```shell
+python -m venv ./venv/
+source venv/bin/activate
+```
+For Windows:
+```shell
+python -m venv venv
+venv\Scripts\activate
+```
+
+To deactivate the virtual environment, use the command:
+```shell
+deactivate
+```
+## **2.2 Install All Dependencies**
+
+Install the required dependencies:
+```shell
+pip install -r requirements.txt
+```
