@@ -45,11 +45,11 @@ This project uses **Python 3.9+** and works on **macOS, Linux, and Windows**.
 
 (1) Clone this repository:  
 ```shell
-git clone https://github.com/cathieG/Sentiment-LSTM.git
+git clone https://github.com/cathieG/LSTM_Movie_Sentiment.git
 ```
-(2) Navigate into the repository: (change according to your directory structure)
+(2) Navigate into the repository:
 ```shell
-cd CodeT5
+cd LSTM_Movie_Sentiment
 ```
 (3) Set up a virtual environment and activate it:
 
