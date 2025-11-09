@@ -5,12 +5,7 @@ from ast import literal_eval
 
 
 class SentimentDataset(Dataset):
-    """
-    Custom PyTorch Dataset for loading preprocessed sentiment data.
-    Each row contains:
-      - 'input_x': list of token indices (already padded/truncated)
-      - 'Label': integer sentiment label (0 = negative, 1 = positive)
-    """
+    
 
     def __init__(self, csv_file):
         # Read the preprocessed CSV and safely parse lists in 'input_x'
@@ -32,10 +27,7 @@ class SentimentDataset(Dataset):
 
 
 def get_dataloaders(train_csv, test_csv, batch_size=64, num_workers=0):
-    """
-    Create DataLoaders for training and testing.
-    Returns: train_loader, test_loader
-    """
+    
     train_dataset = SentimentDataset(train_csv)
     test_dataset = SentimentDataset(test_csv)
 
