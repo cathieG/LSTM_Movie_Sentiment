@@ -1,3 +1,6 @@
 # LSTM_Movie_Sentiment
 
-Raw training and testing data are shared via Google Drive.
+Shared Google Drive contains:
+1. Template codes provided by Professor
+2. Glove Embeddings
+3. Raw training and testing data
