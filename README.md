@@ -68,9 +68,18 @@ To deactivate the virtual environment, use the command:
 ```shell
 deactivate
 ```
+(4) Download GloveEmbedding
+Go to https://nlp.stanford.edu/projects/glove/ and download glove.6B.zip
+Copy the following two files into a new folder named glove/ inside the project root:
+```shell
+sentiment-project/glove/glove.6B.200d.txt
+sentiment-project/glove/glove.6B.300d.txt
+```
+
 ## **2.2 Install All Dependencies**
 
 Install the required dependencies:
 ```shell
 pip install -r requirements.txt
 ```
+## **2.3 Prepare the Data**
