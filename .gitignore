@@ -1,0 +1,73 @@
+# ================================
+# Python build and runtime files
+# ================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dll
+*.dylib
+*.pyd
+
+# ================================
+# Virtual environments
+# ================================
+.venv/
+venv/
+env/
+ENV/
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ================================
+# Logs and temporary files
+# ================================
+*.log
+*.tmp
+*.swp
+*.swo
+.DS_Store
+
+# ================================
+# Output and model artifacts
+# ================================
+checkpoints/
+runs/
+outputs/
+*.pt
+*.pth
+*.ckpt
+
+# ================================
+# Data and large external files
+# ================================
+data/raw/
+data/tmp/
+*.zip
+*.tar.gz
+*.rar
+
+# Exclude large pre-trained embeddings
+glove/
+
+# ================================
+# IDE / Editor specific
+# ================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ================================
+# OS-specific files
+# ================================
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ================================
+# Jupyter notebook cache
+# ================================
+.ipynb_checkpoints
